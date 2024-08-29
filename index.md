@@ -62,7 +62,7 @@ Red Bull Racing is known for its competitive edge and has produced multiple worl
 
 ### Monaco Grand Prix
 
-<img src="https://monaco-addict.com/wp-content/uploads/2023/04/MONACO-F1-CIRCUIT.jpg" alt="F1 Logo" width="400" height="171.428572"/>
+<img src="https://monaco-addict.com/wp-content/uploads/2023/04/MONACO-F1-CIRCUIT.jpg" alt="F1 Logo" width="400" height="171.428"/>
 - **Location**: Monte Carlo, Monaco
 - **Characteristics**: Street circuit, famous for its tight corners and glamorous setting.
 
@@ -70,7 +70,7 @@ The Monaco Grand Prix is one of the most prestigious races in the world, known f
 
 ### Silverstone Circuit
 
-<img src="https://pngimg.com/d/red_bull_PNG12.png" alt="F1 Logo" width="175" height="75"/>
+<img src="https://motorsporttickets.com/blog/wp-content/uploads/2021/07/1018171584-LAT-20200809-GP2005_141002A09I9642.jpg" alt="F1 Logo" width="400" height="171.428"/>
 - **Location**: Silverstone, United Kingdom
 - **Characteristics**: Fast and flowing, home of the British Grand Prix.
 
@@ -78,7 +78,7 @@ Silverstone is one of the oldest and most iconic tracks in Formula 1, with a ric
 
 ### Circuit de Spa-Francorchamps
 
-<img src="https://pngimg.com/d/red_bull_PNG12.png" alt="F1 Logo" width="175" height="75"/>
+<img src="https://static.wixstatic.com/media/3d8837_f5f3380545e0422eaf017220b2ae49f9~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3d8837_f5f3380545e0422eaf017220b2ae49f9~mv2.jpg" alt="F1 Logo" width="400" height="171.428"/>
 - **Location**: Spa, Belgium
 - **Characteristics**: Long and challenging, known for the Eau Rouge corner.
 
@@ -86,9 +86,7 @@ Spa-Francorchamps is beloved by drivers and fans alike for its beautiful setting
 
 ---
 
-## Stay Updated
-
-Stay up-to-date with the latest news, race results, and standings in the current Formula 1 season. The world of F1 is always full of excitement and surprises, with every race bringing new developments.
-
-
 <img src="https://pngimg.com/d/formula_1_PNG39.png" alt="F1 Logo" width="850" height="425"/>
+
+## Links
+[Tools](Tools_and_Setup.md)
