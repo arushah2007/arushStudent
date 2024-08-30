@@ -24,3 +24,20 @@ hide: true
   }
 </style>
 
+![Bowser walking](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cc5428c4-8007-43c6-a9bc-d8f51b8014dd/d99a6tv-c2a5b029-ac90-4379-bde8-2a833ee4566e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NjNTQyOGM0LTgwMDctNDNjNi1hOWJjLWQ4ZjUxYjgwMTRkZFwvZDk5YTZ0di1jMmE1YjAyOS1hYzkwLTQzNzktYmRlOC0yYTgzM2VlNDU2NmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ng14rbD3T5Y_WFnkFv-aU_1y6fVAe8sEBKIdgF2u7A4)
+<style>
+  img {
+    position: fixed;
+    bottom: 0;
+    left: 40;
+    width: 200px;
+    height: 200px;
+    animation: walk 10s linear infinite;
+  }
+  @keyframes walk {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100vw); }
+  }
+</style>
+
+
