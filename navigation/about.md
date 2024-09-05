@@ -5,33 +5,18 @@ permalink: /about/
 hide: true
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Rainbow Text</title>
-    <style>
-        @keyframes rainbow {
-            0% { color: red; }
-            14% { color: orange; }
-            28% { color: yellow; }
-            42% { color: green; }
-            57% { color: blue; }
-            71% { color: indigo; }
-            85% { color: violet; }
-            100% { color: red; }
-        }
 
-        .rainbow-text {
-            font-size: 24px;
-            font-weight: bold;
-            animation: rainbow 3s infinite;
-            animation-timing-function: ease-in-out;
-        }
-    </style>
-</head>
-<body>
+- My name is Arush Shah. 
+- I am a Junior at Del Norte High School in the Ap Computer Science Principles Class. 
+- I enjoy art very much as I am in the AP Drawing class too. 
+- I love cooking and hanging out with my friends. 
+- Some of my favorite places to go are the beach, rock climbing, or a hike.
+- I am Indian but I was born in Cincinnati, Ohio
 
-<p class="rainbow-text">About me!</p>
-</body>
-</html>
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP8gR6VyLeGqPlzvvcn-BcL3WMxzSqisNk2A&s" alt="Flag"/>
+
+<img src="https://logodownload.org/wp-content/uploads/2020/07/cincinnati-bengals-logo-0.png" alt="Bengals Logo" width="300" height="350"/>
+
 
