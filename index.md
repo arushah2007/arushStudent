@@ -1,14 +1,25 @@
 ---
 layout: base
-title: Student Home 
+title: Welcome To Arush's Page
 description: Home Page
 hide: true
 ---
 
+<center>
+<h1 style="color:red; font-family:'Courier New', monospace;">Welcome to Arush's Page</h1>
+<h3 style="color:red; font-family:'Courier New', monospace;">By Arush Shah</h3>
+</center>
 
-# Welcome To My Blog
 
-#### By Arush Shah
+## Submenu:
+<div style="padding-top: 25px;">
+
+<a href="notebook1" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 1</a>
+
+<a href="notebook2" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 2</a>
+
+<a href="notebook3" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 3</a>
+</div>
 
 
 <div style="padding-top: 12px;">
@@ -16,7 +27,7 @@ hide: true
 </div>
 
 
-<p>This is a button</p>
+<p>Useful button</p>
 <button>Button</button>
 <!-- button code -->
 
@@ -31,7 +42,7 @@ hide: true
 <!-- division and second a tag that goes to about page. a tag has padding to make it bigger and style(like color and text color, underline, etc) -->
 </div>
 
-<p>Click on these to see my F1 and Tools and Setup pages</p>
+<p>👆Click on these to see my F1 and Tools and Setup pages👆</p>
 
 
 
