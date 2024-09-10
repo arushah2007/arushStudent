@@ -6,13 +6,21 @@ hide: true
 ---
 
 <center>
-<h1 style="color:red; font-family:'Courier New', monospace;">Welcome to Arush's Page</h1>
-<h3 style="color:red; font-family:'Courier New', monospace;">By Arush Shah</h3>
+<h1 style="color:red; font-family:'Times New Roman', monospace; font-weight:bold; font-size: 3em;">Welcome to My Blog</h1>
 </center>
 
+<center>
+<h3 style="color:red; font-family:'Times New Roman', monospace; font-weight:semi bold; font-size: 2em;">By Arush Shah</h3>
 
-## Submenu:
-<div style="padding-top: 25px;">
+</center>
+
+<div style="padding-top: 12px;">
+<!-- for more space above button-->
+</div>
+
+<h3 style="color:black; font-family:'Calibri', monospace; font-weight:bold; font-size: 1.6em;">Submenu👇</h3>
+
+<div>
 
 <a href="notebook1" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 1</a>
 
@@ -22,23 +30,19 @@ hide: true
 </div>
 
 
-<div style="padding-top: 12px;">
-<!-- for more space above button-->
-</div>
-
-
+<div style="padding-top: 42px;">
 <p>Useful button</p>
 <button>Button</button>
 <!-- button code -->
-
+</div>
 
 <div style="padding-top: 45px;">
-<a href="./navigation/f1.html" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">F1</a>
+<a href="https://www.formula1.com/" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">F1 Website</a>
 <!-- division and first a tag that goes to f1 page. a tag has padding to make it bigger and style(like color and text color, underline, etc) -->
 </div>
 
 <div style="padding-top: 6px;">
-<a href="./navigation/Tools_and_Setup.html" style="display: inline-block; padding: 10px 50px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Tools and Setup</a>
+<a href="https://nighthawkcoders.github.io/portfolio_2025/" style="display: inline-block; padding: 10px 50px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Nighthawk Pages Site</a>
 <!-- division and second a tag that goes to about page. a tag has padding to make it bigger and style(like color and text color, underline, etc) -->
 </div>
 
