@@ -14,6 +14,10 @@ hide: true
    - I installed Homebrew using the command:
      `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
    - I confirmed the installation with `brew --version`
+   - <a href="https://brew.sh/">Homebrew Website</a>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMEjd9pyDlp7i8CItgvxYl4GYlYD_waV1vsA&s" alt="F1 Logo" width="90" height="150"/>
+
 
 ### 3. Setting Up Python Environment
    - I made a virtual environment using the `venv.sh` script given in the project

@@ -22,11 +22,11 @@ hide: true
 
 <div>
 
-<a href="notebook1" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 1</a>
+<a href="notebook1" style="display: inline-block; padding: 10px 60px; background-color: #f09797; color: black; text-decoration: underline; border-radius: 5px;">Notebook 1</a>
 
-<a href="notebook2" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 2</a>
+<a href="notebook2" style="display: inline-block; padding: 10px 60px; background-color: #8caede; color: black; text-decoration: underline; border-radius: 5px;">Notebook 2</a>
 
-<a href="notebook3" style="display: inline-block; padding: 10px 60px; background-color: #D3D3D3; color: black; text-decoration: underline; border-radius: 5px;">Notebook 3</a>
+<a href="notebook3" style="display: inline-block; padding: 10px 60px; background-color: #96d99b; color: black; text-decoration: underline; border-radius: 5px;">Notebook 3</a>
 </div>
 
 
