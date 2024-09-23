@@ -4,7 +4,7 @@ Click the cookie to earn points! Buy upgrades to increase your earnings, but bew
   <h1>Cookie Clicker</h1>
   <p>Points: <span id="points">0</span></p>
   <!-- Cookie button -->
-  <button id="cookie" style="font-size: 50px;">🍪</button>
+  <button id="cookie" style="font-size: 200px; background: none; border: 0px; filter: drop-shadow(5px 5px 5px gray);">🍪</button>
   <h2>Upgrades</h2>
   <!-- Click Multiplier Upgrades -->
   <div>
@@ -122,5 +122,3 @@ Click the cookie to earn points! Buy upgrades to increase your earnings, but bew
     checkUpgrades();
   }, 1000);
 </script>
-
-
