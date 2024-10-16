@@ -5,6 +5,8 @@ description: Home Page
 hide: true
 ---
 
+
+
 <center>
 <h1 style="color:red; font-family:'Times New Roman', monospace; font-weight:bold; font-size: 3em;">Welcome to My Blog</h1>
 </center>
@@ -17,6 +19,8 @@ hide: true
 <div style="padding-top: 12px;">
 <!-- for more space above button-->
 </div>
+
+<a href="sprint2home.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Go to My Sprint 2 Home Page 🚀</a>
 
 <h3 style="color:black; font-family:'Calibri', monospace; font-weight:bold; font-size: 1.6em;">Notebooks👇</h3>
 
@@ -135,3 +139,5 @@ hide: true
         crossorigin="anonymous"
         async>
     </script> 
+
+    
