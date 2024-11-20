@@ -22,6 +22,8 @@ hide: true
 
 <a href="sprint2home.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Go to My Sprint 2 Home Page 🚀</a>
 
+<a href="mcblog.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">CollegeBoard MC Blog 🚀</a>
+
 <h3 style="color:black; font-family:'Calibri', monospace; font-weight:bold; font-size: 1.6em;">Notebooks👇</h3>
 
 <div>
