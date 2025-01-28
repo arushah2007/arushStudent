@@ -37,5 +37,5 @@ This will help my projects look professional and demonstrate strong collaboratio
 
 ---
 
-<img src="images/IMG_6687%20copy.png" alt="UML Diagram" style="width:50%;"/>
+<img src="images/IMG_6687%20copy.png" alt="Me in the panel" style="width:50%;"/>
 

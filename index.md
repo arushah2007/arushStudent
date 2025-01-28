@@ -28,6 +28,8 @@ hide: true
 
 <a href="panelblog.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Student Panel Blog 🚀</a>
 
+<a href="fullstackblog.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Full Stack Blog 🚀</a>
+
 <h3 style="color:black; font-family:'Calibri', monospace; font-weight:bold; font-size: 1.6em;">Notebooks👇</h3>
 
 <div>
