@@ -8,6 +8,7 @@ hide: true
 
 *January 27, 2025 • By Arush Shah • 5 min read*
 
+
 ---
 
 ## Overview of the Program
@@ -27,6 +28,104 @@ This feature is an essential component of the platform, enabling students to mai
 
 ---
 
+
+# AP CSP Create Performance Task (CPT) Guide
+
+*February 2025 • By Arush Shah*
+
+---
+
+## **CPT Requirements Summary**
+For the AP Computer Science Principles Create Performance Task (CPT), students must meet the following requirements:
+
+1. **Input from One of the Following Sources:**
+   - **User Input:** Data entered via a form, command line, or other interface.
+   - **Device Input:** Data received from hardware (e.g., sensors, cameras).
+   - **Online Data Stream:** Real-time data from APIs or external services.
+   - **File Input:** Reading data from local files.
+
+2. **Use of at Least One Collection Type:**
+   - A **list, dictionary, set, or database** must be used to manage complexity and store data.
+   - This helps organize and process information efficiently.
+
+ **Lists (Rows):**  
+In our Profile model, the `_classes` attribute is stored as a JSON column, allowing it to function like a list. Each profile can have multiple classes, and we provide methods to manipulate this list dynamically.
+
+
+  ```python
+  def add_class(self, class_name):
+      if class_name not in self._classes:
+          self._classes.append(class_name)
+          db.session.commit()
+          return True
+      return False
+  ```
+
+
+ **Dictionaries (Columns):**  
+The `read()` method converts the attributes of a profile(name, favorite class, grade, etc.) into a dictionary so that they can be easily returned as JSON in the API response.
+
+  ```python
+  def read(self):
+    return {
+        'id': self.id,
+        'name': self.name,
+        'classes': self.classes,
+        'favorite_class': self.favorite_class,
+        'grade': self.grade,
+    }
+  ```
+
+
+The database is managed with SQLAlchemy, which simplifies database interactions. Each Profile represents a row in the table, and its attributes (name, classes, etc.) are stored as columns.
+
+
+
+
+3. **A Student-Developed Procedure:**
+   - **Defined Name:** The function must have a meaningful name - CANTELLA
+   - **Return Type (if needed):** If the procedure returns a value, it must be specified.
+   - **Parameters:** One or more parameters should be included.
+
+4. **Algorithm with Key Elements:**
+   - **Sequencing:** The procedure must execute steps in a logical order.
+   - **Selection:** The procedure must use conditional logic (e.g., `if` statements).
+   - **Iteration:** The procedure must include a loop (`for`, `while`, etc.).
+
+5. **Calls to the Student-Developed Procedure:**
+   - The function must be called at least once in the program.
+
+6. **Program Output Based on Input & Functionality:**
+   - The program must display output in one of the following ways:
+     - **Tactile Output:** Haptic feedback (vibration, resistance).
+     - **Audible Output:** Sound-based responses.
+     - **Visual Output:** Graphs, images, or screen updates.
+     - **Textual Output:** Text-based information in the console or GUI.
+
+---
+
+## **Input Implementation in My Program**
+For my CPT project, I implement **user input** by allowing users to create and update their profiles through API requests.
+
+### **Example: User Input via API**
+When a user submits a profile form, the data is sent as a JSON object through a `POST` request:
+
+```json
+{
+  "name": "John Doe",
+  "classes": ["Math", "History"],
+  "favorite_class": "Math",
+  "grade": "A"
+}
+
+
+
+
+
+
+
+
+
 ## Input/Output Demonstration
 
 ### Frontend Interface
@@ -35,9 +134,6 @@ The frontend provides an intuitive interface for creating, updating, and deletin
 **Profiles Frontend**  
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 7px;">
     <img src="images/frontend.png" alt="profiles frontend" style="width:48%;"/>
-    <img src="images/frontcreate.png" alt="create profile" style="width:48%;"/>
-    <img src="images/frontedit.png" alt="edit profile" style="width:43%;"/>
-    <img src="images/frontdelete.png" alt="delete profile" style="width:55%;"/>
 </div>
 
 
@@ -57,7 +153,6 @@ Send a POST request to `/api/profiles` with the following JSON body:
 } 
 ```
 
-<img src="images/post.png" style="width:50%;"/>
 
 <img src="images/dbPOST.png" style="width:50%;"/>
 
@@ -96,52 +191,6 @@ Send a DELETE request to `/api/profiles` with the following JSON body:
 
 You can see after all the API requests, John Doe was POSTed, Jake was PUT to replace Arush, and Jackson was DELETEd
 
-## Database Management
-
-### **Database Initialization (`db_init`)**
-
-The `db_init` function initializes the database by creating required tables and setting up the initial schema. We use this function when starting a new project or resetting an existing database to its default state.
-
-#### **Command to Run Initialization**:
-```bash
-./scripts/db_init.py
-```
-
-<code>
-
-    def initProfiles():
-        with app.app_context():
-            db.create_all()
-
-            p1 = Profile(name='Arush Shah', classes=['Math', 'Science', 'History'],
-                     favorite_class='Science', grade='A')
-            p2 = Profile(name='Jackson Patrick', classes=['Art', 'Music', 'Literature'],
-                     favorite_class='Art', grade='A+')
-            p3 = Profile(name='Armaghan Zarak', classes=['Computer Science', 'Physics',     
-                     'Biology'], favorite_class='Computer Science', grade='B+')
-
-
-
-
-### **Database Backup (`db_backup`)**
-
-The `db_backup` function allows you to safely back up the current state of your database. This ensures that your data is preserved and can be restored later in case of accidental deletion or other issues.
-
-#### **Command to Run Backup**:
-```bash
-./scripts/db_backup.py
-```
-
-
-### **Database Restore (`db_restore`)**
-
-The `db_restore` function allows you to revert your database to a previously saved state by restoring data from a backup file.
-
-#### **Command to Run Backup**:
-```bash
-./scripts/db_restore.py
-```
-
 
 
 
@@ -149,7 +198,8 @@ The `db_restore` function allows you to revert your database to a previously sav
 In the `Profile` model, lists, dictionaries, and a relational database are used to manage and manipulate data:
 
  **Lists (Rows):**  
-The `_classes` attribute is stored as a JSON object in the database, behaving like a list of classes for a profile. Methods  like `add_class` and `remove_class` dynamically modify this list.
+In our Profile model, the `_classes` attribute is stored as a JSON column, allowing it to function like a list. Each profile can have multiple classes, and we provide methods to manipulate this list dynamically.
+
 
   ```python
   def add_class(self, class_name):
@@ -162,7 +212,7 @@ The `_classes` attribute is stored as a JSON object in the database, behaving li
 
 
  **Dictionaries (Columns):**  
-The `read()` method converts a Profile instance into a dictionary for API responses. Each `Profile` represents a row, with attributes as columns.
+The `read()` method converts the attributes of a profile(name, favorite class, grade, etc.) into a dictionary so that they can be easily returned as JSON in the API response.
 
   ```python
   def read(self):
@@ -177,8 +227,11 @@ The `read()` method converts a Profile instance into a dictionary for API respon
 
 
 
+The database is managed with SQLAlchemy, which simplifies database interactions. Each Profile represents a row in the table, and its attributes (name, classes, etc.) are stored as columns.
+
+
 ### Formatting Response Data (JSON) into DOM
-The `read` method formats database records into JSON, enabling seamless data transfer to the frontend for DOM updates.
+The `read` method converts each profile into JSON format. The API sends this JSON data to the frontend, which updates the DOM (what the user sees on the webpage) - document object model. For example, when you retrieve all profiles, the `get` method collects all rows from the database, converts them to JSON, and sends them to the frontend.
 
   ```python
   def get(self):
@@ -187,65 +240,6 @@ The `read` method formats database records into JSON, enabling seamless data tra
         return jsonify([profile.read() for profile in profiles])
     except Exception as e:
         return {'message': f"An error occurred: {str(e)}"}, 500
-  ```
-
-
-### Queries to Extract Python Lists (Rows)
-Using SQLAlchemy, rows from the database are converted into Python lists:
-
- **Lists (Rows):**  
-Using SQLAlchemy, rows from the database are converted into Python lists:
-
-  ```python
-  profiles = Profile.query.all()
-  ```
-
-This query retrieves all `profiles` table rows as a list of `Profile` objects. SQLAlchemy simplifies database operations with a Pythonic interface.
-
-
-### CRUD Methods
-In the `Profile` model, lists, dictionaries, and a relational database are used to manage and manipulate data:
-
- - **Create**: Adds a profile to the database.
-
-  ```python
-  def create(self):
-    db.session.add(self)
-    db.session.commit()
-    return self
-  ```
-
- - **Read**: Fetches the profile details as a dictionary.
-
-  ```python
-  def read(self):
-    return {
-        'id': self.id,
-        'name': self.name,
-        'classes': self.classes,
-        'favorite_class': self.favorite_class,
-        'grade': self.grade,
-    }
-  ```
-
- - **Update**: Updates specific columns.
-
-  ```python
-  def update(self, inputs):
-    self._name = inputs.get("name", self._name)
-    self._classes = inputs.get("classes", self._classes)
-    self._favorite_class = inputs.get("favorite_class", self._favorite_class)
-    self._grade = inputs.get("grade", self._grade)
-    db.session.commit()
-    return self
-  ```
-
- - **Delete**: Removes the profile from the database.
-
-  ```python
-  def delete(self):
-    db.session.delete(self)
-    db.session.commit()
   ```
 
 
@@ -342,6 +336,67 @@ The ProfileAPI class supports **CRUD** operations:
 
 
 
+
+### CRUD Methods
+In the `Profile` model, lists, dictionaries, and a relational database are used to manage and manipulate data:
+
+ - **Create**: Adds a profile to the database.
+
+  ```python
+  def create(self):
+    db.session.add(self)
+    db.session.commit()
+    return self
+  ```
+
+ - **Read**: Fetches the profile details as a dictionary.
+
+  ```python
+  def read(self):
+    return {
+        'id': self.id,
+        'name': self.name,
+        'classes': self.classes,
+        'favorite_class': self.favorite_class,
+        'grade': self.grade,
+    }
+  ```
+
+ - **Update**: Updates specific columns.
+
+  ```python
+  def update(self, inputs):
+    self._name = inputs.get("name", self._name)
+    self._classes = inputs.get("classes", self._classes)
+    self._favorite_class = inputs.get("favorite_class", self._favorite_class)
+    self._grade = inputs.get("grade", self._grade)
+    db.session.commit()
+    return self
+  ```
+
+ - **Delete**: Removes the profile from the database.
+
+  ```python
+  def delete(self):
+    db.session.delete(self)
+    db.session.commit()
+  ```
+
+
+
+### Queries to Extract Python Lists (Rows)
+Using SQLAlchemy, rows from the database are converted into Python lists:
+
+
+
+  ```python
+  profiles = Profile.query.all()
+  ```
+
+This query retrieves all `profiles` table rows as a list of `Profile` objects. SQLAlchemy simplifies database operations with a Pythonic interface.
+
+
+
 ### Sequencing, Selection, and Iteration
 The `POST` method demonstrates these programming principles:
 
@@ -394,4 +449,51 @@ In the `POST` method:
 {
     "message": "Profile with the same name already exists"
 }
+```
+
+
+
+## Database Management
+
+### **Database Initialization (`db_init`)**
+
+The `db_init` function initializes the database by creating required tables and setting up the initial schema. We use this function when starting a new project or resetting an existing database to its default state.
+
+#### **Command to Run Initialization**:
+```bash
+./scripts/db_init.py
+```
+
+<code>
+
+    def initProfiles():
+        with app.app_context():
+            db.create_all()
+
+            p1 = Profile(name='Arush Shah', classes=['Math', 'Science', 'History'],
+                     favorite_class='Science', grade='A')
+            p2 = Profile(name='Jackson Patrick', classes=['Art', 'Music', 'Literature'],
+                     favorite_class='Art', grade='A+')
+            p3 = Profile(name='Armaghan Zarak', classes=['Computer Science', 'Physics',     
+                     'Biology'], favorite_class='Computer Science', grade='B+')
+
+
+
+### **Database Backup (`db_backup`)**
+
+The `db_backup` function allows you to safely back up the current state of your database. This ensures that your data is preserved and can be restored later in case of accidental deletion or other issues.
+
+#### **Command to Run Backup**:
+```bash
+./scripts/db_backup.py
+```
+
+
+### **Database Restore (`db_restore`)**
+
+The `db_restore` function allows you to revert your database to a previously saved state by restoring data from a backup file.
+
+#### **Command to Run Restore**:
+```bash
+./scripts/db_restore.py
 ```
