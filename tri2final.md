@@ -166,7 +166,7 @@ class Profile(db.Model):
 <section style="background-color: #e3f2fd; padding: 20px; border-left: 5px solid #0d6efd; border-radius: 10px; margin-top: 20px;">
     <h2 style="color: #0d6efd;">🎯 College Board CPT Requirements Met</h2>
 
-    <p>Throughout the development of <b>Cantella</b>, I met several <b>College Board Computational Thinking Practices (CPT) requirements</b>, demonstrating key programming and problem-solving skills.</p>
+    <p>Throughout the development of <b>Cantella</b>, I met several <b>CPT requirements</b>, demonstrating key programming and problem-solving skills.</p>
 
     <!-- Grid Layout for CPT Requirements -->
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 15px;">
@@ -452,7 +452,7 @@ This feedback provides great insight into **what worked well** and **what needs 
     <td>✅</td>
   </tr>
   <tr>
-    <td>⏳ <b>EXTRA: Implement knowledge from the student panel meating -> Flowchards</b></td>
+    <td>⚠️ <b>EXTRA: Implement knowledge from the student panel meating -> Flowchards</b></td>
     <td>✅</td>
   </tr>
 </table>
