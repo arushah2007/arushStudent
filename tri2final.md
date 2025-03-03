@@ -15,9 +15,12 @@ hide: true
 - [🚀 Future Plans & Next Steps](#-future-plans--next-steps)
 - [🎯 Summary for Live Review](#-summary-for-live-review)
 
+# Cantella & My Feature
+- Cantella is a social media for students where there are usefull study tools and student interaction through my profile features where users can create, edit, delete, and see other peoples' profiles which includes school-related fields. 
+
 ---
 
-# 🌐 **Profile Feature: Core CPT Requirements & Implementation**
+# 🌐 **Profile Feature: CPT & Implementation**
 
 ## **📌 GitHub Issues & Burndown List**
 🔗 <a href="https://github.com/XavierTho/cantella_backend/issues/27#issue-2776751759" >Profiles Github Issue</a>
@@ -158,6 +161,87 @@ class Profile(db.Model):
 
 
 ---
+
+<!-- College Board CPT Requirements Met -->
+<section style="background-color: #e3f2fd; padding: 20px; border-left: 5px solid #0d6efd; border-radius: 10px; margin-top: 20px;">
+    <h2 style="color: #0d6efd;">🎯 College Board CPT Requirements Met</h2>
+
+    <p>Throughout the development of <b>Cantella</b>, I met several <b>College Board Computational Thinking Practices (CPT) requirements</b>, demonstrating key programming and problem-solving skills.</p>
+
+    <!-- Grid Layout for CPT Requirements -->
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 15px;">
+        
+        <!-- Data Abstraction -->
+        <div style="background-color: #bbdefb; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+            <h3 style="color: #0b5ed7;">📂 Data Abstraction</h3>
+            <p>Used <b>SQLAlchemy models</b> to store, retrieve, and manipulate structured user profile data.</p>
+        </div>
+
+        <!-- Program Implementation -->
+        <div style="background-color: #bbdefb; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+            <h3 style="color: #0b5ed7;">🖥️ Program Implementation</h3>
+            <p>Developed <b>RESTful API endpoints</b> with Flask, handling profile CRUD operations efficiently.</p>
+        </div>
+
+        <!-- Algorithms & Control Structures -->
+        <div style="background-color: #bbdefb; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+            <h3 style="color: #0b5ed7;">🔄 Algorithms & Control Structures</h3>
+            <p>Implemented <b>conditional rendering</b> in JavaScript to improve the user experience in the Flashcards feature.</p>
+        </div>
+
+        <!-- Data Management -->
+        <div style="background-color: #bbdefb; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+            <h3 style="color: #0b5ed7;">📊 Data Management</h3>
+            <p>Verified <b>database integrity</b> and CRUD functionality through <b>Postman API testing</b>.</p>
+        </div>
+
+        <!-- Testing & Debugging -->
+        <div style="background-color: #bbdefb; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+            <h3 style="color: #0b5ed7;">🐞 Testing & Debugging</h3>
+            <p>Identified and fixed usability issues, including <b>profile form scrolling bugs</b> and UI inconsistencies.</p>
+        </div>
+
+        <!-- User Interaction & Data Representation -->
+        <div style="background-color: #bbdefb; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+            <h3 style="color: #0b5ed7;">👥 User Interaction & Data Representation</h3>
+            <p>Designed a <b>responsive UI</b> with dynamic updates using <b>JavaScript Fetch API</b>.</p>
+        </div>
+
+    </div>
+
+    <p style="margin-top: 15px;"><b>These CPT requirements highlight my ability to design, develop, and optimize full-stack applications with structured data management.</b> 🚀</p>
+</section>
+
+
+
+
+<!-- MCQ Performance Section -->
+<section style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #d39e00;">🧠 MCQ Performance & Improvement Plan</h2>
+
+    <p>
+        For the multiple-choice section, I scored <b>46/67</b>. While this is a solid score, there is room for improvement before the AP exam.
+        My key areas for growth include:
+    </p>
+
+    <ul>
+        <li>📌 Reviewing <b>missed concepts</b> by analyzing my incorrect answers.</li>
+        <li>📌 Practicing with <b>more timed MCQ tests</b> to improve speed and accuracy.</li>
+        <li>📌 Strengthening <b>algorithm-related questions</b> to ensure better performance.</li>
+    </ul>
+
+    <!-- Space for Screenshot -->
+    <div style="text-align: center; margin-top: 10px;">
+        <img src="images/MCQ.png" alt="MCQ Scoring Report" style="width: 90%; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+        <p style="font-size: 14px; color: #555;">📸 Screenshot of MCQ Scoring Report</p>
+    </div>
+
+    <p>
+        Moving forward, I will focus on <b>targeted practice</b> and <b>concept reinforcement</b> to improve my score before the AP test. 🚀
+    </p>
+</section>
+
+
 
 # 🎤 **Night at the Museum (N@tM) Presentation**
 
@@ -329,7 +413,7 @@ This feedback provides great insight into **what worked well** and **what needs 
 
 ---
 
-### ⭐ Bonus: 10th Point (Ways to Impress the Teacher)
+### ⭐ Bonus: 10th Point
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
     <th>Ideas for the 10th Point</th>
@@ -337,7 +421,7 @@ This feedback provides great insight into **what worked well** and **what needs 
   </tr>
   <tr>
     <td>🔍 <b>Taking extreme interest in other projects & people (N@tM reviews, event chronicling, personalization)</b></td>
-    <td>❌</td>
+    <td>🛠</td>
   </tr>
   <tr>
     <td>🤝 <b>Helping a new person get Final Exam materials organized</b></td>
@@ -367,9 +451,13 @@ This feedback provides great insight into **what worked well** and **what needs 
     <td>⏳ <b>Being able to clearly highlight all 10 points within 3 minutes during the live review</b></td>
     <td>✅</td>
   </tr>
+  <tr>
+    <td>⏳ <b>EXTRA: Implement knowledge from the student panel meating -> Flowchards</b></td>
+    <td>✅</td>
+  </tr>
 </table>
 
 ---
 
 ### 📌 Final Reflection
-_Final Grade: 9.1/10_
+_Final Grade: 9/10_
