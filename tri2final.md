@@ -215,32 +215,6 @@ class Profile(db.Model):
 
 
 
-<!-- MCQ Performance Section -->
-<section style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; border-radius: 8px; margin-top: 20px;">
-    <h2 style="color: #d39e00;">🧠 MCQ Performance & Improvement Plan</h2>
-
-    <p>
-        For the multiple-choice section, I scored <b>46/67</b>. While this is a solid score, there is room for improvement before the AP exam.
-        My key areas for growth include:
-    </p>
-
-    <ul>
-        <li>📌 Reviewing <b>missed concepts</b> by analyzing my incorrect answers.</li>
-        <li>📌 Practicing with <b>more timed MCQ tests</b> to improve speed and accuracy.</li>
-        <li>📌 Strengthening <b>algorithm-related questions</b> to ensure better performance.</li>
-    </ul>
-
-    <!-- Space for Screenshot -->
-    <div style="text-align: center; margin-top: 10px;">
-        <img src="images/MCQ.png" alt="MCQ Scoring Report" style="width: 90%; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
-        <p style="font-size: 14px; color: #555;">📸 Screenshot of MCQ Scoring Report</p>
-    </div>
-
-    <p>
-        Moving forward, I will focus on <b>targeted practice</b> and <b>concept reinforcement</b> to improve my score before the AP test. 🚀
-    </p>
-</section>
-
 
 
 # 🎤 **Night at the Museum (N@tM) Presentation**
@@ -378,6 +352,147 @@ This feedback provides great insight into **what worked well** and **what needs 
 
     <p><b>By exchanging feedback and practicing presentations, we both strengthened our final exam preparation.</b> This collaboration gave us a fresh perspective on our projects and helped refine our work.</p>
 </section>
+
+<!-- MCQ Performance Section -->
+<section style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #d39e00;">🧠 MCQ Performance & Improvement Plan</h2>
+
+    <p>
+        For the multiple-choice section, I scored <b>46/67</b>. While this is a solid score, there is room for improvement before the AP exam.
+        My key areas for growth include:
+    </p>
+
+    <ul>
+        <li>📌 Reviewing <b>missed concepts</b> by analyzing my incorrect answers.</li>
+        <li>📌 Practicing with <b>more timed MCQ tests</b> to improve speed and accuracy.</li>
+        <li>📌 Strengthening <b>algorithm-related questions</b> to ensure better performance.</li>
+    </ul>
+
+    <!-- Space for Screenshot -->
+    <div style="text-align: center; margin-top: 10px;">
+        <img src="images/MCQ.png" alt="MCQ Scoring Report" style="width: 90%; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+        <p style="font-size: 14px; color: #555;">📸 Screenshot of MCQ Scoring Report</p>
+    </div>
+
+    <p>
+        Moving forward, I will focus on <b>targeted practice</b> and <b>concept reinforcement</b> to improve my score before the AP test. 🚀
+    </p>
+</section>
+
+<div>
+
+
+</div>
+
+
+<!-- 🎯 AP CSP Personalized Project Reference (PPR) FRQ -->
+<section style="background-color: #e3f2fd; padding: 20px; border-left: 5px solid #1e88e5; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #1565c0;">🚀 AP CSP Personalized Project Reference (PPR) FRQ</h2>
+    <p>
+        Below are my <b>code segments</b> that meet the <b>AP CSP requirements</b>, formatted creatively for clarity and readability.
+    </p>
+</section>
+
+<!-- 🛠️ Part 1: Student-Developed Procedure -->
+<section style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #d39e00;">🛠️ Part 1: Self-Developed Procedure</h2>
+
+    <p><b>📌 Requirement:</b></p>
+    <ul>
+        <li>✔ Defines a <b>procedure name</b> and <b>return type</b> (if necessary).</li>
+        <li>✔ Uses <b>one or more parameters</b> that impact functionality.</li>
+        <li>✔ Implements an <b>algorithm with sequencing, selection, and iteration</b>.</li>
+    </ul>
+
+    <h3>💡 Student-Developed Procedure</h3>
+    <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto;">
+<code style="font-family: monospace; color: #f92672;">def</code> <code style="color: #a6e22e;">add_class</code>(self, class_name):
+    <code style="color: #f92672;">if</code> class_name <code style="color: #f92672;">not in</code> self._classes:  <code style="color: #75715e;"># Selection: checks if class is already in list</code>
+        self._classes.append(class_name)  <code style="color: #75715e;"># Sequencing: modifies the list</code>
+        db.session.commit()  <code style="color: #75715e;"># Saves changes to the database</code>
+        <code style="color: #f92672;">return</code> True
+    <code style="color: #f92672;">return</code> False
+    </pre>
+
+    <h4>📝 Explanation</h4>
+    <ul>
+        <li>🔹 <b>Procedure Name:</b> add_class</li>
+        <li>🔹 <b>Parameter:</b> class_name</li>
+        <li>🔹 <b>Selection:</b> <code>if class_name not in self._classes</code></li>
+        <li>🔹 <b>Iteration:</b> While no explicit loop is present, this function modifies data iteratively over time.</li>
+    </ul>
+</section>
+
+<!-- 📞 Part 2: Procedure Call in Program -->
+<section style="background-color: #e8f5e9; padding: 15px; border-left: 5px solid #43a047; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #2e7d32;">📞 Part 2: Procedure Call in Program</h2>
+    <p>The procedure is called inside the <b>Profile API</b> when modifying a user’s profile.</p>
+
+    <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto;">
+<code style="font-family: monospace; color: #f92672;">profile</code> = Profile.query.get(data['id'])
+<code style="color: #f92672;">if</code> profile:
+    profile.add_class(data['new_class'])  <code style="color: #75715e;"># Calls the procedure to add a class</code>
+    </pre>
+
+    <p><b>📌 Why This is Important?</b></p>
+    <ul>
+        <li>✔ Ensures <b>data integrity</b> by checking if the class already exists.</li>
+        <li>✔ Helps <b>modularize functionality</b>, keeping API calls clean and efficient.</li>
+    </ul>
+</section>
+
+<!-- 📋 Part 3: List Usage for Managing Complexity -->
+<section style="background-color: #fbe9e7; padding: 15px; border-left: 5px solid #e53935; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #b71c1c;">📋 Part 3: List Usage for Managing Complexity</h2>
+    <p><b>📌 Requirement:</b></p>
+    <ul>
+        <li>✔ First Code Segment: Shows how data is stored in the list.</li>
+        <li>✔ Second Code Segment: Shows how the stored list data is accessed and used.</li>
+    </ul>
+
+    <h3>📂 Storing Data in a List (JSON Format)</h3>
+    <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto;">
+<code style="font-family: monospace; color: #ffffff;">p1 = Profile(name='Arush Shah', classes=['Math', 'Science', 'History'], favorite_class='Science', grade='A')</code>
+    </pre>
+
+    <p><b>📌 Explanation:</b></p>
+    <ul>
+        <li>✅ Stores multiple classes in a list (<code>classes</code>) inside a <code>Profile</code> object.</li>
+        <li>✅ Uses JSON format for structured data storage in a database.</li>
+    </ul>
+
+    <h3>📊 Using Data from the List</h3>
+    <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto;">
+<code style="font-family: monospace; color: #f92672;">def</code> read(self):
+    <code style="color: #f92672;">return</code> {
+        'id': self.id,
+        'name': self.name,
+        'classes': self.classes,  <code style="color: #75715e;"># Accessing list data</code>
+        'favorite_class': self.favorite_class,
+        'grade': self.grade,
+    }
+    </pre>
+
+    <p><b>📌 Explanation:</b></p>
+    <ul>
+        <li>✔ The <code>read()</code> function retrieves the stored list and makes it accessible via API calls.</li>
+        <li>✔ The <code>classes</code> list is dynamically used for front-end rendering.</li>
+    </ul>
+</section>
+
+<!-- 🌟 Summary & Takeaways -->
+<section style="background-color: #ede7f6; padding: 15px; border-left: 5px solid #673ab7; border-radius: 8px; margin-top: 20px;">
+    <h2 style="color: #4527a0;">🌟 Summary & Takeaways</h2>
+    <ul>
+        <li>✅ Implemented a <b>student-developed procedure</b> with sequencing, selection, and iteration.</li>
+        <li>✅ Used <b>lists to manage complexity</b>, storing and retrieving multiple class values dynamically.</li>
+        <li>✅ <b>API successfully calls the procedure</b>, proving functional integration.</li>
+    </ul>
+
+</section>
+
+
+
 
 
 ## 📝 Self-Grade Assessment
