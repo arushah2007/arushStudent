@@ -576,3 +576,13 @@ This feedback provides great insight into **what worked well** and **what needs 
 
 ### 📌 Final Reflection
 _Final Grade: 9/10_
+
+
+
+<script src="https://utteranc.es/client.js"
+        repo="arushah2007/arushStudent"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script> 
