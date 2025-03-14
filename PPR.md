@@ -21,14 +21,14 @@ hide: true
         <li>✔ <b>List Creation:</b> Initializes and stores student class data.</li>
         <li>✔ <b>List Processing:</b> Retrieves and processes stored class data.</li>
         <li>✔ <b>Function with Sequencing, Selection, and Iteration:</b> A function that iterates over a list, applies conditional logic, and processes data.</li>
-        <li>✔ <b>Call to Function:</b> A function call that modifies a user’s profile dynamically.</li>
+        <li>✔ <b>Call to Function:</b> A function call that modifies a user’s profile dynamically and read on the frontend, making use of the list.</li>
     </ul>
 </section>
 
 <!-- 📂 List Creation -->
 <section style="background-color: #e8f5e9; padding: 20px; border-left: 5px solid #43a047; border-radius: 8px; margin-top: 20px;">
     <h2 style="color: #2e7d32;">📂 List Creation</h2>
-    <p>This segment initializes student profiles and creates a list of classes.</p>
+    <p>This segment initializes student profiles and creates a list WITHIN the variable classes.</p>
 
     <pre style="background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto;">
 <code style="color: #f92672;">p1</code> = Profile(name=<span style="color:#e6db74;">"Arush Shah"</span>, classes=[<span style="color:#e6db74;">"Math"</span>, <span style="color:#e6db74;">"Science"</span>, <span style="color:#e6db74;">"History"</span>], 
@@ -79,7 +79,7 @@ p3.create()
 
     <h3>📌 Explanation of Key Concepts:</h3>
     <ul>
-        <li><b>✔ Sequencing:</b> The function follows a structured process, first iterating through the new classes, checking conditions, and then modifying the list before saving to the database.</li>
+        <li><b>✔ Sequencing:</b> The function follows a structured process, first iterating through the new classes, checking conditions, and then modifying the list before saving to the database and repeating this process.</li>
         <li><b>✔ Selection:</b> The <b>if</b> statement ensures that only new classes are added, preventing duplicate entries.</li>
         <li><b>✔ Iteration:</b> The <b>for</b> loop iterates over the list of new classes and processes them dynamically.</li>
     </ul>
@@ -96,7 +96,7 @@ p3.create()
     profile.update_classes(data[<span style="color:#e6db74;">'new_classes'</span>])
     </pre>
 
-    <p><b>📝 Explanation:</b> This retrieves a student profile by ID and updates their class list with new classes. The function ensures that only missing classes are added.</p>
+    <p><b>📝 Explanation:</b> This retrieves a student profile by ID and updates their class list with new classes through the <b>update_classes</b> function . The function ensures that only missing classes are added.</p>
 </section>
 
 
