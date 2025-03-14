@@ -22,6 +22,8 @@ hide: true
 
 <a href="PPR.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Go to PPR Blog 🚀</a>
 
+<a href="mcqblog.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Go to MCQ Blog 🚀</a>
+
 <a href="tri2final.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Go to Tri 2 Final Blog 🚀</a>
 
 <a href="sprint2home.html" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #4CAF50; text-align: center; text-decoration: none; border-radius: 5px;">Go to My Sprint 2 Home Page 🚀</a>
